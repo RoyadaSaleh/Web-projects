@@ -12,7 +12,7 @@ function Form(){
             <br />
             <input type="submit" value="Submit" onClick={(value)=>submitForm(value, props.handleSubmit)}  style={{width:"7rem", height:"2rem", backgroundColor:"#1447FD", color:"white", borderRadius:".3rem", border:"none"}}></input>
         </form>
-    ) 
+    )  
 
 }
 export default Form
