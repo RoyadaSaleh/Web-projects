@@ -1,5 +1,5 @@
-import Post from './components/post';
 import React from 'react';
+import Post from './components/post';
 function App(){ 
   return(
     <div>
@@ -9,7 +9,8 @@ function App(){
         
         {/* Feed */}
         
-        {/* Post */} 
+        <Post content="This is a test post!" />
+        <Post content="This is another test post!" />
     
     </div>
   )
