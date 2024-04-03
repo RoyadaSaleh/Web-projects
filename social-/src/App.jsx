@@ -1,5 +1,5 @@
 import React from 'react';
-import Post from './components/post';
+import Post from './components/Post';
 function App(){ 
 
   const [WebProjects, setWebProjects] = useState([])
@@ -7,6 +7,10 @@ function App(){
   let handleNewSubmission = (data) => {
     setWebProjects([...WebProjects, data])
   }
+    let onNewPost = (data) =>{
+      // receives data from form
+      setWebProjects([...WebProjects, data])
+    }
 
   return(
     <div>
