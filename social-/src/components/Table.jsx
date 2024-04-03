@@ -1,4 +1,8 @@
-function Table(){
+function Table(props){
+    return props.data.map((data) => {
+        return <Post description={data.description} content={data.content}/>
+
+    })
     return (
         <Table>
             <tr>

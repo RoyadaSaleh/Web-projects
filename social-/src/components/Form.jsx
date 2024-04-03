@@ -17,7 +17,7 @@ function Form(props){
             event.preventDefault() 
 
             if (postTitle !== "") {
-                props.handleSubmit(postTitle)
+                props.handleSubmit({title: postTitle, description: postDescription})
             }else {
                 alert("Posts need a comment")
             }
